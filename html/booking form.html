@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Horizon Ventures</title>
+
+
+<head>
+
+	<style>
+	body 
+		{
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left:25%;
+		margin-right:25%;
+		border: 1px solid #000000;
+		margin-bottom: 5px;
+		padding: 0px 15px 0 15px;
+		}
+	input[type=text], input[type=password] 
+		{
+		width: 97%;
+		padding: 10px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: #F5F5F5;
+		}
+	hr 
+		{
+		border: 1px solid #e6e6e6;
+		margin-bottom: 5px;
+		}
+	.registerbutton
+		{
+		background-color: #29a329;
+		color: white;
+		padding: 15px 20px;
+		margin: 10px 0px;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		font-weight:bold;
+		}
+	</style>
+
+</head>
+
+
+<body>
+
+	<form>
+
+		<br>
+		<h1><center>Booking Form</center></h1>
+		<p><center>Please fill in the required details to for booking.</center></p>
+		<hr>
+		
+		<label for="name"><b>Name</b></label>
+		<input type="text" placeholder="Enter Your Name" name="name" required><br>
+		
+		<label for="number"><b>Contact No.</b></label>
+		<input type="text" placeholder="Enter Your Contact No." name="number" id="number" required><br>
+		
+		<label for="email"><b>Email</b></label> 
+		<input type="text" placeholder="Enter Your E-mail" name="email" required><br>
+
+		<label for="email"><b>Address</b></label> 
+		<input type="text" placeholder="Enter Your Address" name="address" required><br>
+
+		<label for="checkin"><b>Check In</b></label> 
+		<input type="text" placeholder="Enter the Check-In Date" name="checkin" required><br>
+
+		<label for="checkout"><b>Check Out</b></label> 
+		<input type="text" placeholder="Enter the Check-Out Date" name="checkout" required><br>
+
+		<label for="number"><b>No. of Travellers</b></label> 
+		<input type="text" placeholder="Enter Number of Travellers" name="quantity" required><br>
+
+		<label for="dest"><b>Destination</b></label>
+		<input type="password" placeholder="Enter Your Destination" name="dest" required><br>
+
+		<hr>
+		<p>By pressing "BOOK" you agree to our <a href="#">Terms & Conditions</a>.</p>
+
+		<button type="submit" class="registerbutton">BOOK!</button>
+		
+	</form>
+
+</body>
+
+</html>

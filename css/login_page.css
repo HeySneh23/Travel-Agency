@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( to top left , rgb(98, 0, 255) , rgb(176, 145, 226));
+
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+#container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 70vh;
+    width: 60vw;
+    top: 100px;
+    /* margin: 0px auto; */
+    box-sizing: border-box;
+    border: 2px solid black;
+    justify-content: space-around;
+    background-image: linear-gradient(270deg , rgb(98, 0, 255) )  ;
+    filter: blur('100%');
+    align-items: center;
+    /* opacity: .6; */
+}
+#container>h1{
+    font-family: 'Sigmar', cursive;
+    text-align: center;
+    margin: 0px auto;
+    word-spacing: 20px;
+    font-weight: lighter;
+}
+.form_input{
+    margin: 0px auto;
+    height:30px;
+    width: 300px;
+    /* border-radius: 20px; */
+    background: transparent;
+    border: 0px transparent;
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+}
+.container>input::placeholder{
+    color: black;
+}
+.container>input:placeholder-shown{
+    text-align: center;
+    
+}
+.container>button{
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    height:40px;
+    width: 300px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 4px 4px black, -4px -4px black;
+    padding: 0px;
+}
+.container>button:hover{
+    background-color: rgb(127, 180, 226);
+
+}
+/* .form_input:hover{
+    border: 1px solid red;
+} */
+footer{
+    text-align: center;
+    display: block;
+    width: 100vw ;
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+}
+#title{
+    display: block;
+    text-align: center;
+}
+span{
+    font-family: 'Sigmar', cursive;
+    text-align: center;
+    margin: 0px auto;
+    word-spacing: 20px;
+    font-weight: lighter;
+}

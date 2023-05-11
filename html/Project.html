@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon Ventures FOOD AND HOTELS</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body {
+        position: absolute;
+        top: 0px;
+       height: 100vh;
+       width: 100vw;
+    }
+    body::after{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: url('https://im.whatshot.in/img/2020/Apr/41215842-2062970037054645-8180165235601047552-o-baan-tao-cropped-1586780385.jpg');
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        opacity: .6;
+        z-index: -1;
+    }
+
+    h1 {
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        background-color: greenyellow;
+        color: white;
+        z-index: 1;
+        font-size: 5rem;
+        width: 100vw;
+        height: 10vh;
+        line-height: 10vh;
+        text-shadow: 5px 5px black, -5px -5px black;
+
+    }
+
+    label,
+    select {
+      text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        margin: 10px auto;
+        z-index: 1;
+        background-color: transparent;
+
+    }
+    div{
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+           /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(50%,50%); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: transparent; */
+    }
+    input[type = "button"]{
+        height: 50px;width: 150px;
+        border-radius: 20px;
+        background-color: black;
+        color: wheat;
+        cursor: pointer;
+
+
+    }
+</style>
+
+<body>
+    <!-- <center> -->
+    <h1>Restaurant booking for food</h1>
+    <!-- <br><br><br><br><br><br><br><br><br><br> -->
+    <!-- </center>
+    <center> -->
+        <div>
+
+    <label for="hotel">
+        Hotel:
+    </label>
+    <select name="hotels" id="hotel">
+        <option value="Select">Select</option>
+        <option value="5 Star">5 Star</option>
+        <option value="4 Star">4 Star</option>
+        <option value="3 Star">3 Star</option>
+        <option value="2 Star">2 Star</option>
+    </select><br>
+    <label for="Food">
+        Food:
+    </label>
+    <select name="Food" id="Food">
+        <option value="Select">Select</option>
+        <option value="Vegetarian">Vegetarian</option>
+        <option value="Non-Vegetarian">Non vegetarian</option>
+        <option value="Vegan">Vegan</option>
+    </select><br>
+    <label for="cuisine">
+        Cuisine:
+    </label>
+    <select name="crisine" id="cuisine">
+        <option value="Select">Select</option>
+        <option value="Indian">Indian</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Italian">Itallian</option>
+        <option value="South-Indian">South-Indian</option>
+        <option value="Thai">Thai</option>
+        <option value="Mexican">Mexican</option>
+        <option value="French">French</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Punjabi">Punjabi</option>
+    </select> <br>
+    <input type="button" value="find Hotels" placeholder="Find hotels"><br>
+    </select>
+</div>
+
+    <!-- </center> -->
+</body>
+
+</html>
